@@ -2,32 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { 
+      font-size: 11px; text-align: center;
+      color: white;
+    }
+    .attribution a {color: #ee00ee;}
+    #myname {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
   </style>
 </head>
 <body>
+  <main class="card">
+    <img src="images/image-equilibrium.jpg" alt="a glassy cube reflecting colors" class="card-image">
 
-  Equilibrium #3429
+    <h1 class="card-title">Equilibrium #3429</h1>
 
-  Our Equilibrium collection promotes balance and calm.
+    <p class="card-description">Our Equilibrium collection promotes balance and calm.</p>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <section class="card-currency">
+      <img src="images/icon-ethereum.svg" alt="currency-icon" class="card-currency-icon">
+      <p class="card-currency-value">0.041 ETH</p>
+    </section>
 
-  <div class="attribution">
+    <section class="card-countdown">
+      <img src="images/icon-clock.svg" alt="countdowm-icon" class="card-countdown-icon">
+      <p class="card-countdown-value">3 days left</p>
+    </section>
+
+    <hr>
+
+    <img src="images/image-avatar.png" alt="thumbnail of the creator" class="creator-thumb">
+    <p class="creator-text">Creation of <span class="creator-name">Jules Wyvern</span></p>
+  </main>
+
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a id="myname" href="https://github.com/MetalRick84">MetalRick</a>.
+  </footer>
 </body>
 </html>
