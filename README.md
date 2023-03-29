@@ -10,7 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Questions](#questions)
 - [Author](#author)
 
 
@@ -46,6 +46,11 @@ Users should be able to:
 
 - How to set an upstream for a local branch in git (git push -u \<remote\> \<remote-branch\>)
 - It is important that you suit your desk and your chair to your anatomy ;)
+
+### Questions
+
+- **Why is the image-container higher than the image itself?** I could solve this with _height: 301px_ but I want to know why. You can see it when hovering the card-image (gap at the bottom of the image).
+Or with devtools :)
 
 
 ## Author
