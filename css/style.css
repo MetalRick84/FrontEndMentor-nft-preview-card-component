@@ -43,12 +43,20 @@ body {
     background-color: var(--card-BG-color);
     color: var(--text-color);
     width: 327px;
-    aspect-ratio: 327 / 540;
+    /* aspect-ratio: 327 / 540; */
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 12px;
+}
+
+@media only screen and (min-width: 480px) {
+    .card {
+        width: 346px;
+        height: 590px;
+    }
 }
 
 .card-image {
@@ -116,10 +124,7 @@ body {
 
 footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 3px;
     width: 100%;
 
 }
-
-
-

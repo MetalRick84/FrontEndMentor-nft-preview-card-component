@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![comming soon](#)
+![solution-screenshot](/images/solution-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/MetalRick84/FrontEndMentor-nft-preview-card-component)
+- [Live Site](https://metalrick84.github.io/FrontEndMentor-nft-preview-card-component/)
 
 ## My process
 
@@ -44,6 +44,8 @@ Users should be able to:
 
 ### What I learned
 
+- How to set an upstream for a local branch in git (git push -u \<remote\> \<remote-branch\>)
+- It is important that you suit your desk and your chair to your anatomy ;)
 
 
 ## Author
