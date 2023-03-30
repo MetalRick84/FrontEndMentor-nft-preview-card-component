@@ -52,6 +52,11 @@ Users should be able to:
 - **Why is the image-container higher than the image itself?** I could solve this with _height: 301px_ but I want to know why. You can see it when hovering the card-image (gap at the bottom of the image).
 Or with devtools :)
 
+### Improvements 
+
+- Removed at bottom of card image with *display: block*
+- Changed image-path for hover-icon, thans to [Abdul Khalid](https://www.frontendmentor.io/solutions/why-gap-at-bottom-of-image-see-when-hover-1mE9MeGkki#comment-642441cd1135839cec4a0077)
+
 
 ## Author
 
